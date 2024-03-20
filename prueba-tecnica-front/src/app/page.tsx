@@ -1,13 +1,18 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero"
-import Features from "@/components/Features";
+import IntegrationSection from "@/components/IntegrationSection";
+import CTASection from "@/components/CTASection";
+import FeaturesSection from "@/components/FeaturesSection";
+
 
 export default function Home() {
   return (
     <div>
       <Nav/>
       <Hero/>
-      <Features />
+      <IntegrationSection/>
+      <CTASection />
+      <FeaturesSection />
     </div>
   );
 }

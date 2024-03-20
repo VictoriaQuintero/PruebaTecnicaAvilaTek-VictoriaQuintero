@@ -20,7 +20,7 @@ export default function Hero() {
                             <InputLabel />
                             <p className="text-sm text-[#E9D7FE]">We care about your data in our <Link href={'/'} className="underline">privacy policy</Link>.</p>
                         </div>
-                        <CTAButton />
+                        <CTAButton content="Get started" />
                     </form>
                 </div>
             </div>
