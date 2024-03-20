@@ -1,5 +1,6 @@
 import Image from "next/image"
 import CTAButton from "./CTAButton"
+import SeeMoreButton from "./SeeMoreButton"
 
 import ctaImage from "../../public/assets/CTA-image.svg"
 
@@ -15,9 +16,7 @@ export default function CTASection() {
                         </div>
                         <div className="flex flex-col gap-3 lg:flex-row-reverse lg:justify-end">
                             <CTAButton content="Get started" />
-                            <button className="bg-white border border-[#D0D5DD] h-fit py-3 px-[18px] rounded-lg text-[#344054] font-semibold">
-                                Learn more
-                            </button>
+                            <SeeMoreButton />
                         </div>
                     </div>
                     <Image className="w-full lg:w-2/5 h-full" src={ctaImage} alt="join us" />
