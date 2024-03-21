@@ -100,32 +100,26 @@ export const questions = [
     {
         tittle: 'Is there a free trial available?',
         response: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
-        close : true
     },
     {
         tittle: 'Can I change my plan later?',
         response: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
-        close : true
     },
     {
         tittle: 'What is your cancellation policy?',
         response: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
-        close : true
     },
     {
         tittle: 'Can other info be added to an invoice?',
         response: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
-        close : true
     },
     {
         tittle: 'How does billing work?',
         response: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
-        close : true
     },
     {
         tittle: 'How do I change my account email?',
         response: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
-        close : true
     },
     
 ]
