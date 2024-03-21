@@ -6,6 +6,7 @@ import FeaturesSection from "@/components/FeaturesSection";
 import SecondaryCtaSection from "@/components/SecondaryCtaSection";
 import FAQ from "@/components/FAQ";
 import TestimonialSection from "@/components/TestimonialSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SecondaryCtaSection />
       <FAQ />
       <TestimonialSection />
+      <Footer />
     </div>
   );
 }
