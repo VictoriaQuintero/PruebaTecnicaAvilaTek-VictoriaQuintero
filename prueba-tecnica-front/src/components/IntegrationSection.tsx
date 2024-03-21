@@ -1,56 +1,11 @@
-import Image from 'next/image'
+// componentes
 import Badge from './Badge'
 import Features from './Features'
 
-
-import Notion from '../../public/assets/notion.svg'
-import Slack from '../../public/assets/Slack.svg'
-import Drive from '../../public/assets/Drive.svg'
-import Intercom from '../../public/assets/Intercom.svg'
-import Jira from '../../public/assets/Jira.svg'
-import Dropbox from '../../public/assets/Dropbox.svg'
+// items features
+import { featuresIntegration } from '../../public/assets/constants/const'
 
 export default function IntegrationSection() {
-
-    const features = [
-        {
-            icon: Notion,
-            tittle: 'Notion integration',
-            description: 'Work faster and smarter by integrating directly with Notion, right in the app.',
-            button: 'View integration'
-        },
-        {
-            icon: Slack,
-            tittle: 'Slack integration',
-            description: 'Work faster and smarter by integrating directly with Slack, right in the app.',
-            button: 'View integration'
-        },
-        {
-            icon: Drive,
-            tittle: 'Google Drive integration',
-            description: 'Work faster and smarter by integrating directly with Notion, right in the app.',
-            button: 'View integration'
-        },
-        {
-            icon: Intercom,
-            tittle: 'Intercom integration',
-            description: 'Work faster and smarter by integrating directly with Notion, right in the app.',
-            button: 'View integration'
-        },
-        {
-            icon: Jira,
-            tittle: 'Jira integration',
-            description: 'Work faster and smarter by integrating directly with Notion, right in the app.',
-            button: 'View integration'
-        },
-        {
-            icon: Dropbox,
-            tittle: 'Dropbox integration',
-            description: 'Work faster and smarter by integrating directly with Notion, right in the app.',
-            button: 'View integration'
-        },
-    ]
-
 
     return (
         <div className="flex flex-col pb-24 gap-16 lg:items-center">
@@ -65,7 +20,7 @@ export default function IntegrationSection() {
                 </p>
             </div>
 
-            <Features features={features} /> 
+            <Features features={featuresIntegration} /> 
 
         </div>
     )

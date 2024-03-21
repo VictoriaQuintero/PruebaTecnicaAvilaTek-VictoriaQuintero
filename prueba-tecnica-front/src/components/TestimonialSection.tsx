@@ -1,9 +1,6 @@
 import Image from "next/image"
-
 import testimonio from '../../public/assets/testimonio-img.svg'
-import testimonioRes from '../../public/assets/testimonio-img.jpg'
 import stars from '../../public/assets/stars.svg'
-
 
 export default function TestimonialSection() {
     return (

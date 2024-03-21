@@ -1,23 +1,13 @@
 import Image from "next/image"
+
 import Logo from "../../public/assets/Logo.svg"
 import Menu from "../../public/assets/Menu.svg"
 
+import { itemsNav } from "../../public/assets/constants/const"
+
 export default function Nav() {
 
-    const itemsNav = [
-        {
-            name: "Home"
-        },
-        {
-            name: "Products"
-        },
-        {
-            name: "Resources"
-        },
-        {
-            name: "Pricing"
-        },
-    ]
+
 
     return (
         <div className="flex items-center justify-center">
