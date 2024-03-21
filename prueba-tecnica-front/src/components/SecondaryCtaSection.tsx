@@ -25,7 +25,7 @@ export default function SecondaryCtaSection(){
             <div className="px-4 lg:pr-8 lg:pl-0 lg:w-2/5">
                 <div className="flex flex-col gap-2 px-[7px] lg:flex-row lg:flex-wrap  lg:justify-center">
                     <Image className="w-full h-[160px] object-cover lg:w-1/3 self-end" src={cta1} alt="image" />
-                    <Image className="w-full h-[160px] object-cover lg:w-1/3 self-end" src={cta2} alt="image" />
+                    <Image className="w-full h-[160px] object-cover lg:w-1/3 lg:h-auto self-end" src={cta2} alt="image" />
                     <Image className="w-full h-[160px] object-cover lg:w-1/3 lg:h-fit" src={cta3} alt="image" />
                     <Image className="w-full h-[160px] object-cover lg:w-1/4" src={cta4} alt="image" />
                     <Image className="w-full h-[160px] object-cover lg:w-1/3 lg:h-fit" src={cta5} alt="image" /> 

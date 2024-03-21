@@ -4,6 +4,7 @@ import IntegrationSection from "@/components/IntegrationSection";
 import CTASection from "@/components/CTASection";
 import FeaturesSection from "@/components/FeaturesSection";
 import SecondaryCtaSection from "@/components/SecondaryCtaSection";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CTASection />
       <FeaturesSection />
       <SecondaryCtaSection />
+      <FAQ />
     </div>
   );
 }
