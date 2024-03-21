@@ -17,17 +17,17 @@ export default function Nav() {
                     <nav className="hidden lg:flex lg:items-center lg:gap-8">
                         {
                             itemsNav.map((item, index) => (
-                                <p key={index} className="text-[#475467] text-base font-semibold">{item.name}</p>
+                                <p key={index} className="text-text-secondary text-base font-semibold">{item.name}</p>
                             ))
                         }
                     </nav>
                 </div>
                 <Image className="lg:hidden" src={Menu} alt="Menu" />
                 <div className="hidden lg:flex lg:gap-3">
-                    <button className="text-[#475467] text-base font-semibold py-[10px] px-4 rounded-lg">
+                    <button className="text-text-secondary text-base font-semibold py-[10px] px-4 rounded-lg">
                         Log in
                     </button>
-                    <button className="bg-[#7F56D9] text-white text-base font-semibold py-[10px] px-4 rounded-lg">
+                    <button className="bg-purple-secondary text-white text-base font-semibold py-[10px] px-4 rounded-lg">
                         Sing up
                     </button>
                 </div>

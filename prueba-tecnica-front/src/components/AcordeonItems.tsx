@@ -16,14 +16,14 @@ export default function AcordeonItems({ question, index }: AcordeonItemsProps) {
     const [open, setOpen] = useState(false)
     return (
         <details key={question.tittle} className={`flex flex-col gap-2 ${index > 0 && 'pt-6 border-t border-[#EAECF0]'}`} >
-            <summary className="cursor-pointer list-none flex items-center justify-between gap-2 text-[#101828] text-lg font-medium lg:gap-6" onClick={() => setOpen(!open)}>
+            <summary className="cursor-pointer list-none flex items-center justify-between gap-2 text-black-primary text-lg font-medium lg:gap-6" onClick={() => setOpen(!open)}>
                 {question.tittle}
                 <span>
                     <Image src={open ? close : Plus} alt='plus' />
                 </span>
             </summary>
             <div className='pt-4'>
-                <p className='text-[#475467]'>{question.response} </p>
+                <p className='text-text-secondary'>{question.response} </p>
             </div>
         </details>
     )

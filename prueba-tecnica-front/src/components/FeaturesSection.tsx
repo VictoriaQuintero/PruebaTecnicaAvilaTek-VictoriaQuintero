@@ -10,11 +10,11 @@ export default function FeatureSection() {
             <div className="flex flex-col gap-4 px-4 lg:w-3/4 lg:px-8 lg:gap-5">
                 <div className="flex flex-col gap-4 items-center">
                     <Badge tittle="Features" />
-                    <h1 className="text-[#101828] text-3xl font-semibold text-center lg:9">
+                    <h1 className="text-black-primary text-3xl font-semibold text-center lg:9">
                         Cutting-edge features for advanced analytics
                     </h1>
                 </div>
-                <p className="text-[#475467] text-lg text-center lg:text-xl">
+                <p className="text-text-secondary text-lg text-center lg:text-xl">
                     Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.
                 </p>
             </div>

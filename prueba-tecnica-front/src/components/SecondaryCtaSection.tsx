@@ -13,8 +13,8 @@ export default function SecondaryCtaSection(){
             <div className="px-4 lg:flex lg:items-center lg:pl-8 lg:pr-0 lg:w-1/2">
                 <div className="flex flex-col gap-8 lg:gap-12">
                     <div className="flex flex-col gap-4 lg:gap-6">
-                        <h1 className="text-[#101828] text-3xl font-semibold lg:text-5xl">No long-term <br className="lg:hidden" /> contracts. No catches.</h1>
-                        <h2 className="text-[#475467] text-lg lg:text-xl">Start your 30-day free trial today.</h2>
+                        <h1 className="text-black-primary text-3xl font-semibold lg:text-5xl">No long-term <br className="lg:hidden" /> contracts. No catches.</h1>
+                        <h2 className="text-text-secondary text-lg lg:text-xl">Start your 30-day free trial today.</h2>
                     </div>
                     <div className="flex flex-col gap-3 lg:flex-row-reverse lg:justify-end">
                         <CTAButton content="Get started" />

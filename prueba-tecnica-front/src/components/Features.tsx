@@ -19,10 +19,10 @@ export default function Features({ features }: FeaturesProps) {
                     <Image src={feature.icon} alt='notion' />
                     <div className='flex flex-col items-center gap-4 lg:gap-5'>
                         <div className='flex flex-col items-center gap-1 lg:gap-2'>
-                            <h3 className='text-[#101828] text-lg font-semibold text-center lg:text-xl'>{feature.tittle}</h3>
-                            <p className='text-[#475467] text-center font-normal px-3 lg:p-0'>{feature.description}</p>
+                            <h3 className='text-black-primary text-lg font-semibold text-center lg:text-xl'>{feature.tittle}</h3>
+                            <p className='text-text-secondary text-center font-normal px-3 lg:p-0'>{feature.description}</p>
                         </div>
-                        <p className='text-[#6941C6] font-semibold flex gap-2 items-center'>
+                        <p className='text-purple-tertiary font-semibold flex gap-2 items-center'>
                             View integration
                             <span>
                                 <Image src={Arrow} alt='View integration' />

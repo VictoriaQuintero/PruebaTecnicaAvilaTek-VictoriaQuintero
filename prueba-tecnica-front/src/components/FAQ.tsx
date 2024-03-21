@@ -5,10 +5,10 @@ export default function FAQ() {
     return (
         <div className="flex flex-col gap-12 pb-16 lg:py-24 lg:items-center">
             <div className="flex flex-col gap-4 px-4 lg:w-2/3 lg:px-8 lg:p-5 ">
-                <h1 className="text-[#101828] text-3xl font-semibold text-center lg:text-4xl">
+                <h1 className="text-black-primary text-3xl font-semibold text-center lg:text-4xl">
                     Frequently asked questions
                 </h1>
-                <p className="text-[#475467] text-lg text-center lg:text-xl">
+                <p className="text-text-secondary text-lg text-center lg:text-xl">
                     Everything you need to know about the product and billing.
                 </p>
             </div>
